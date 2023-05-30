@@ -97,7 +97,20 @@ WHRadjBMI: Pulit et al 2019: (availbale: https://zenodo.org/record/1251813/files
 
 ### Fat depot traits:
 
+GWAS summary statistics of fat depots from Agrawal et al 2022 can all be downloaded in [https://cvd.hugeamp.org/.](https://personal.broadinstitute.org/ryank/Agrawal_2022_Fat_Depots_GWAS.zip).
+
+The zip file from the link above includes many GWAS summary statitics. We used to the sex-combined data for the following traits:
+
+Abdominal subcutaenous adipose tissue (ASAT)
+Gluteofemoral subcutaneous adipose tissue (GSAT)
+Visceral adipose tissue (VAT)
+VAT/ASAT ratio.
+VAT/GSAT ratio.
+ASAT/GSAT ratio.
+
+Importantly, for some analysis we used BMI-adjusted versions for the three first traits (ASATadjBMI, GSATadjBMI and VATadjBMI). These summary statistics are not available online and should be confused with the BMI&height-adjusted traits that can be found in the link above. The BMI-adjusted versions of the traits were kindly provided by Agrawal and Saaket, first and last authors of the paper. If you wish to replicate those analysis, please contact them as well to obtain the summary statistics. I would like to use this space as well to thank Agrawal and Saaket again for their assistance and contribution. 
+
 ### Hormone traits:
 
-
+To be added.
 
