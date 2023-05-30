@@ -1,5 +1,7 @@
 # Estimating the causal association between smoking and abdominal adiposity using comprehensive Mendelian randomization methods
 
+[NOTE: this repository now contains all code to rerun analysis that have not gone yet through peer-review. Thus, changes to the structure of the repository and the code might change.]
+
 This repository contains the contain to reproduce the MR analysis to assess the associations between smoking and fat distribution. The publication can be found in: 
 
 ## Software used in the analysis:
