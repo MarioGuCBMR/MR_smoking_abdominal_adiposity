@@ -41,3 +41,34 @@ The analysis for this publication started in 03/2020 and, thus, we used the firs
 devtools::install_version("mixsqp", version = "0.1-97", repos = "http://cran.us.r-project.org")
 devtools::install_version("ashr", version = "2.2-32", repos = "http://cran.us.r-project.org")
 devtools::install_github("jean997/cause@v1.0.0")
+
+## Running 2SMR:
+
+The 2SMR analysis are sensitive to sample overlap, so we decided to use GIANT BMI summary statistics, since moderate and vigorous physical activity and sedentary time GWAS are from UK Biobank, exclusively. You can find the original GIANT BMI summary statistics here: https://portals.broadinstitute.org/collaboration/giant/images/1/15/SNP_gwas_mc_merge_nogc.tbl.uniq.gz
+
+To run the analysis following the code in the folder /R/2SMR/running_2SMR, you will need to curate the data using the code in /R/2SMR/curating_data_4_2SMR/.
+
+### Packages requiered
+
+All 2SMR codes start by loading several libraries. 
+
+```
+All of the following can be downloaded using install.packages() function:
+
+library(ggplot2)
+library(ggrepel)
+library(dplyr)
+library(gridExtra)
+library(rmarkdown)
+library(data.table)
+library(jsonlite)
+library(httr)
+library(tidyverse)
+library(phenoscanner)
+```
+
+*Though TwoSampleMR needs remotes:*
+```
+install.packages("remotes")
+remotes::install_github("MRCIEU/TwoSampleMR") #analysis were performed with version 4.26
+```
