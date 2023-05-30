@@ -68,18 +68,29 @@ The GWAS summary statistics utilized for each analysis might differ since tradit
 
 For 2SMR the summary statistics used are:
 
-WHR: Shungin et al 2015 (available at: )
-WHRadjBMI: Shunging et al 2015 (available at: )
-WC: Shunging et al 2015 (available at: )
-HC: Shungin et al 2015 (available at: )
-WCadjBMI: Shunging et al 2015 (available at: )
-HCadjBMI: Shunging et al 2015 (available at: )
-WHRadjBMI stratified for smokers: Justice et al 2017 (available at: )
-WCadjBMI stratified for smokers: Justice et al 2017 (available at: )
+WHR: Shungin et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/5/54/GIANT_2015_WHR_COMBINED_EUR.txt.gz)
+
+WHRadjBMI: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/e/eb/GIANT_2015_WHRadjBMI_COMBINED_EUR.txt.gz)
+
+WC: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/5/57/GIANT_2015_WC_COMBINED_EUR.txt.gz)
+
+HC: Shungin et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/e/e4/GIANT_2015_HIP_COMBINED_EUR.txt.gz)
+
+WCadjBMI: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/7/73/GIANT_2015_WCadjBMI_COMBINED_EUR.txt.gz)
+
+HCadjBMI: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/5/52/GIANT_2015_HIPadjBMI_COMBINED_EUR.txt.gz)
+
+WHRadjBMI stratified for smokers: Justice et al 2017 (available at: https://portals.broadinstitute.org/collaboration/giant/images/1/1c/WHRadjBMI.Stratified.zip)
+
+WCadjBMI stratified for smokers: Justice et al 2017 (available at: https://portals.broadinstitute.org/collaboration/giant/images/3/35/WCadjBMI.Stratified.zip)
 
 For CAUSE and LHC-MR the summary statistics we particularly used GWAS summary statistics with bigger sample sizes for HC, WC, WHR, and WHRadjBMI:
 
-WC Elseworth et al 2018 (available at: )
-HC: Elseworth et al 2018 (available at: )
+WC Elseworth et al 2018 (available at: https://gwas.mrcieu.ac.uk/datasets/ukb-b-9405/) #check with code to be sure
+
+
+HC: Elseworth et al 2018 (available at: https://gwas.mrcieu.ac.uk/datasets/ukb-b-15590/) #check with code to be sure
+
 WHR : Pulit et al 2019: (available: https://zenodo.org/record/1251813/files/whr.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
+
 WHRadjBMI: Pulit et al 2019: (availbale: https://zenodo.org/record/1251813/files/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
