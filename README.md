@@ -16,7 +16,7 @@ The package can be downloaded from here:
 
 ### Packages requiered:
 
-All 2SMR codes start by loading several libraries. 
+Importantly, all code for 2SMR codes start by loading several libraries: 
 
 ```
 All of the following can be downloaded using install.packages() function:
