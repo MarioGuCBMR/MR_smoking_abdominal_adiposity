@@ -94,3 +94,10 @@ HC: Elseworth et al 2018 (available at: https://gwas.mrcieu.ac.uk/datasets/ukb-b
 WHR : Pulit et al 2019: (available: https://zenodo.org/record/1251813/files/whr.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
 
 WHRadjBMI: Pulit et al 2019: (availbale: https://zenodo.org/record/1251813/files/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
+
+### Fat depot traits:
+
+### Hormone traits:
+
+
+
