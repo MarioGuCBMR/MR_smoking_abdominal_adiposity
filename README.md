@@ -7,17 +7,16 @@ The repository consists of two sections:
 
 ## GWAS summary statistics used:
 
-In this publication we are testing whether there is any causal association between adiposity and physical activity or inactivity. To do so we used the latest and largest GWAS summary statistics for each of the traits. The main analysis are performed for Body Mass Index (BMI) and secondary analysis for three other anthropometric traits.
+In this publication we are testing whether there is any causal association between smoking traits and fat distribution. To do so we used the latest and largest GWAS summary statistics for each of the traits. 
 
-### Physical activity and inactivity traits
+### Smoking traits:
 
-For physical activity we decided to use accelerometer data for vigorous physical activity, moderate physical activity and sedentary time from two different sources.
+For smoking traits we decided to use:
 
-Vigorous physical activity from the acc425 model from Klimentidis et al 2018 available here: (https://drive.google.com/drive/folders/1p2-aKT6GgOv4425yaIcvO0nN30O4mpPh).
-
-Moderate physical activity form Doherty et al available here: (https://ora.ox.ac.uk/objects/uuid:ff479f44-bf35-48b9-9e67-e690a2937b22/download_file?file_format=gzip&safe_filename=Doherty-2018-NatureComms-moderate.csv.gz&type_of_work=Dataset).
-
-And sedentary time from Doherty et al available here: (https://ora.ox.ac.uk/objects/uuid:ff479f44-bf35-48b9-9e67-e690a2937b22/download_file?file_format=gzip&safe_filename=Doherty-2018-NatureComms-sedentary.csv.gz&type_of_work=Dataset).
+Lifetime smoking from Wottonn et al ().
+Smoking initiation from Liu et al ().
+Cigarettes per Day from Liu et al ().
+Age of Smoking from Liu et al ().
 
 ### Anthropometric traits:
 
@@ -30,6 +29,12 @@ WHRadjBMI GWAS summary statistics from Pulit et al can be found here: (https://z
 WCadjBMI GWAS summary statistics from Shungin et al 2015 can be found here: (https://portals.broadinstitute.org/collaboration/giant/images/7/73/GIANT_2015_WCadjBMI_COMBINED_EUR.txt.gz)
 
 BFP GWAS summary statistics from Elsworth et al 2018 can be found here: (https://gwas.mrcieu.ac.uk/datasets/ukb-b-8909/)
+
+### Curation of GWAS summary statistics:
+
+For each analysis, we curated the data according to the needs of each software. While we won't be adding the curated data in the github due to their big file sizes, you can either:
+1) replicate our analysis by having all GWAS summary statistics in the RAW_DATA folder.
+2) ask for a zenodo link where all the curated data will be stored. We will only provide this is the replication through step 1 is not successful **(NOTE: ideally this won't happen, but sources like PhenoScanner, SNPNexus or dbSNP are constantly being updated, so results might differ if a long time passes between the original analysis and the replication).**
 
 **All code in this github relies on having the raw data from these sources in the RAW_DATA folder**
 
