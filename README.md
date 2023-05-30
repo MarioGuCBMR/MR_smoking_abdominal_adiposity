@@ -13,22 +13,37 @@ In this publication we are testing whether there is any causal association betwe
 
 For smoking traits we decided to use:
 
-Lifetime smoking from Wottonn et al ().
-Smoking initiation from Liu et al ().
-Cigarettes per Day from Liu et al ().
-Age of Smoking from Liu et al ().
+Lifetime smoking from Wottonn et al 2020 (available here: )
+Smoking initiation from Liu et al 2019 (available here: ).
+Cigarettes per day (past and current smokers) from Liu et al (available here: ).
+Cigarettes per day (current smokers) from Elseworht et al (available here: )
+Packs-year from Elseworth et al (available here: ).
 
-### Anthropometric traits:
+For detailed information on the curation of the data and selection of IVs for each MR method, please check the Methods and Supplementary information of each paper.
 
-As explained before, the main analysis are for BMI as the main adiposity trait, though we also ran analysis for other traits that inform about central obesity or abdominal fat accumualation: body fat percentage, waist circumference adjusted for BMI and waist-to-hip ratio adjusted for BMI. 
+### Fat distribution traits:
 
-BMI GWAS summary statistics from Pulit et al can be found here: (https://zenodo.org/record/1251813/files/bmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
+As outcome we used the following fat distribution traits: waist-hip ratio (WHR), body mass index adjusted WHR (WHRadjBMI), waist circumference (WC), BMI-adjusted WC (WCadjBMI), hip circumference (HC), BMI-adjusted hip circumference (HCadjBMI), WHRadjBMI statified for smokers and WCadjBMI stratified for smokers. 
 
-WHRadjBMI GWAS summary statistics from Pulit et al can be found here: (https://zenodo.org/record/1251813/files/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
+The GWAS summary statistics utilized for each analysis might differ since traditional MR analysis are sensitive to sample overlap, while CAUSE and LHC-MR can control for it.
 
-WCadjBMI GWAS summary statistics from Shungin et al 2015 can be found here: (https://portals.broadinstitute.org/collaboration/giant/images/7/73/GIANT_2015_WCadjBMI_COMBINED_EUR.txt.gz)
+For 2SMR the summary statistics used are:
 
-BFP GWAS summary statistics from Elsworth et al 2018 can be found here: (https://gwas.mrcieu.ac.uk/datasets/ukb-b-8909/)
+WHR: Shungin et al 2015 (available at: )
+WHRadjBMI: Shunging et al 2015 (available at: )
+WC: Shunging et al 2015 (available at: )
+HC: Shungin et al 2015 (available at: )
+WCadjBMI: Shunging et al 2015 (available at: )
+HCadjBMI: Shunging et al 2015 (available at: )
+WHRadjBMI stratified for smokers: Justice et al 2017 (available at: )
+WCadjBMI stratified for smokers: Justice et al 2017 (available at: )
+
+For CAUSE and LHC-MR the summary statistics we particularly used GWAS summary statistics with bigger sample sizes for HC, WC, WHR, and WHRadjBMI:
+
+WC Elseworth et al 2018 (available at: )
+HC: Elseworth et al 2018 (available at: )
+WHR : Pulit et al 2019: (available: https://zenodo.org/record/1251813/files/whr.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
+WHRadjBMI: Pulit et al 2019: (availbale: https://zenodo.org/record/1251813/files/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
 
 ### Curation of GWAS summary statistics:
 
