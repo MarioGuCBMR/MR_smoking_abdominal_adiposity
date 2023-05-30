@@ -1,4 +1,4 @@
-## README of code for curation of exposure data:
+## README of code for curation of outcome data:
 
 Here is the code for the treatment of each of the outcomes for 2SMR analysis:
 
