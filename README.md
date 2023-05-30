@@ -1,9 +1,38 @@
 # Estimating the causal relationship between smoking and abdominal adiposity using Mendelian randomization
 
-The repository consists of two sections:
+This repository contains the contain to reproduce the MR analysis to assess the associations between smoking and fat distribution.
 
-1) The folder structure and code to reproduce our analysis in the /R folder.
-2) The variants and summary statistics used to produce our results, plus a code to easily navigate through them in /data_&_results
+## Software used in the analysis:
+
+A total of 4 Mendelian Randomization Methods were used:
+
+Traditional mendelian randomization pipeline using TwoSampleMR package (v4.6)
+CAUSE-MR (v1.0.0, install it here: )
+LHC-MR (v1.0.0, install it from here: )
+MVMR (vX, install it from here: )
+
+Additionally, genetic risk scores of IVs with fat depots and hormonal GWAS summary statistics were performed with the function grs.summary from the package (gtex, v.0.8.0). This function calculates the joint effects of a set of variants on an outcome trait using only GWAS summary statistics from the exposure and the outcome.
+The package can be downloaded from here:
+
+### Packages requiered:
+
+All 2SMR codes start by loading several libraries. 
+
+```
+All of the following can be downloaded using install.packages() function:
+
+library(ggplot2)
+library(ggrepel)
+library(dplyr)
+library(gridExtra)
+library(rmarkdown)
+library(data.table)
+library(jsonlite)
+library(httr)
+library(tidyverse)
+library(phenoscanner)
+```
+
 
 ## GWAS summary statistics used:
 
