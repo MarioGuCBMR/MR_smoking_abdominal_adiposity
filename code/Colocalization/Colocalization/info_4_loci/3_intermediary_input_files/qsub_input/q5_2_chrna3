@@ -1,0 +1,11 @@
+#! /bin/bash
+#$ -S /bin/bash
+#$ -N 'q5_2_chrna3'
+#$ -hold_jid 'q5_1_chrna3'
+#$ -cwd
+#$ -pe smp 3
+#$ -l h_vmem=6G
+#$ -l s_vmem=4G
+#$ -wd  /emc/cbmr/users/zlc436/smoking_project/info_4_loci/3_intermediary_input_files/qsub_files
+conda activate r_env
+Rscript /emc/cbmr/kilpelainen/tools/auto_locus_zoom/code/internal/5_generate_plots_500kb.R /emc/cbmr/users/zlc436/smoking_project/info_4_loci/2_input_commands/chrna3.cfg
