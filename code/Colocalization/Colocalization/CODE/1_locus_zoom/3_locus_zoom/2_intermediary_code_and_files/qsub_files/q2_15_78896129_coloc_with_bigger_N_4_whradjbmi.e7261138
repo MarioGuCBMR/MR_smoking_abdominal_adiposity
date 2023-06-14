@@ -1,0 +1,47 @@
+Warning: Your system is mis-configured: ‘/etc/localtime’ is not a symlink
+Warning: It is strongly recommended to set envionment variable TZ to ‘Europe/Copenhagen’ (or equivalent)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.5     ✔ dplyr   1.0.7
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.0.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::between()   masks data.table::between()
+✖ dplyr::filter()    masks stats::filter()
+✖ dplyr::first()     masks data.table::first()
+✖ dplyr::lag()       masks stats::lag()
+✖ dplyr::last()      masks data.table::last()
+✖ purrr::transpose() masks data.table::transpose()
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Warning message:
+In dir.create(loci_ss_path_1) :
+  '/emc/cbmr/users/zlc436/smoking_project/CODE/1_locus_zoom/2_locus_zoom/2_intermediary_code_and_files/loci_ss_aligned' already exists
+4,623 variants to be matched.
+2,761 variants have been matched; 0 were flipped and 1,386 were reversed.
+4,623 variants to be matched.
+379 ambiguous SNPs have been removed.
+2,382 variants have been matched; 0 were flipped and 1,209 were reversed.
+3,220 variants to be matched.
+2,709 variants have been matched; 0 were flipped and 1,402 were reversed.
+3,220 variants to be matched.
+375 ambiguous SNPs have been removed.
+2,334 variants have been matched; 0 were flipped and 1,218 were reversed.
+2,842 variants to be matched.
+2,791 variants have been matched; 0 were flipped and 1,446 were reversed.
+2,842 variants to be matched.
+391 ambiguous SNPs have been removed.
+2,400 variants have been matched; 0 were flipped and 1,256 were reversed.
+769 variants to be matched.
+762 variants have been matched; 0 were flipped and 382 were reversed.
+769 variants to be matched.
+120 ambiguous SNPs have been removed.
+642 variants have been matched; 0 were flipped and 327 were reversed.
+Warning message:
+In dir.create(final_loci_path_1) :
+  '/emc/cbmr/users/zlc436/smoking_project/CODE/1_locus_zoom/2_locus_zoom/2_intermediary_code_and_files/loci_ss_aligned/15_78396129_79396129' already exists
