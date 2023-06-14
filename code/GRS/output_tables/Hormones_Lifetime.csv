@@ -1,0 +1,5 @@
+beta;se;lower_ci;upper_ci;pval;trait;type;nsnps;GRS;full_effect;Trait
+-0.00583364;0.114933757;-0.231099663;0.219432384;0.959519523;Cortisol;Cortisol;n=69;Lifetime smoking-WHRadjBMI GRS;-0.01 (-0.23, 0.22);Cortisol
+0.117216698;0.110735948;-0.099821771;0.334255168;0.289816451;Oestradiol;Oestradiol;n=69;Lifetime smoking-WHRadjBMI GRS;0.12 (-0.1, 0.33);Oestradiol
+-0.00598704;0.016236407;-0.037809814;0.025835733;0.712320264;Testosterone;Testosterone;n=69;Lifetime smoking-WHRadjBMI GRS;-0.01 (-0.04, 0.03);Testosterone
+-0.001785153;0.011758609;-0.024831604;0.021261298;0.879331505;SHBG;SHBG;n=69;Lifetime smoking-WHRadjBMI GRS;0 (-0.02, 0.02);SHBG

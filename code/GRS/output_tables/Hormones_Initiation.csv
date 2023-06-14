@@ -1,0 +1,5 @@
+beta;se;lower_ci;upper_ci;pval;trait;type;nsnps;GRS;full_effect;Trait
+-0.070145221;0.051915287;-0.171897314;0.031606873;0.176648128;Cortisol;Cortisol;n=110;Smoking initiation-WHRadjBMI GRS;-0.07 (-0.17, 0.03);Cortisol
+0.014230914;0.049465661;-0.082720001;0.111181828;0.773581917;Oestradiol;Oestradiol;n=110;Smoking initiation-WHRadjBMI GRS;0.01 (-0.08, 0.11);Oestradiol
+-0.007483241;0.00724702;-0.021687139;0.006720658;0.30179321;Testosterone;Testosterone;n=110;Smoking initiation-WHRadjBMI GRS;-0.01 (-0.02, 0.01);Testosterone
+-0.021407727;0.005250476;-0.031698471;-0.011116983;4.56E-05;SHBG;SHBG;n=110;Smoking initiation-WHRadjBMI GRS;-0.02 (-0.03, -0.01);SHBG
