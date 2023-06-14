@@ -111,8 +111,3 @@ VAT/GSAT ratio.
 ASAT/GSAT ratio.
 
 Importantly, for some analysis we used BMI-adjusted versions for the three first traits (ASATadjBMI, GSATadjBMI and VATadjBMI). These summary statistics are not available online and should be confused with the BMI&height-adjusted traits that can be found in the link above. The BMI-adjusted versions of the traits were kindly provided by Agrawal and Saaket, first and last authors of the paper. If you wish to replicate those analysis, please contact them as well to obtain the summary statistics. I would like to use this space as well to thank Agrawal and Saaket again for their assistance and contribution. 
-
-### Hormone traits:
-
-To be added.
-
