@@ -1,0 +1,11 @@
+#! /bin/bash
+#$ -S /bin/bash
+#$ -N 'q5_1_15_78896129_coloc_with_bigger_N_4_whradjbmi'
+#$ -hold_jid 'q4_15_78896129_coloc_with_bigger_N_4_whradjbmi'
+#$ -cwd
+#$ -pe smp 3
+#$ -l h_vmem=6G
+#$ -l s_vmem=4G
+#$ -wd  /emc/cbmr/users/zlc436/smoking_project/CODE/1_locus_zoom/2_locus_zoom/2_intermediary_code_and_files/qsub_files
+conda activate r_env
+Rscript /emc/cbmr/kilpelainen/tools/auto_locus_zoom/code/internal/5_generate_plots.R /emc/cbmr/users/zlc436/smoking_project/CODE/1_locus_zoom/2_locus_zoom/1_input_and_code/cortisol_coloc.cfg
