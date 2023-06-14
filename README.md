@@ -14,7 +14,7 @@ CAUSE-MR (v1.0.0, install it here: https://github.com/jean997/cause)
 
 LHC-MR (v1.0.0, install it from here: https://github.com/LizaDarrous/lhcMR)
 
-MVMR (vX, install it from here: https://github.com/WSpiller/MVMR)
+MVMR (v0.4, install it from here: https://github.com/WSpiller/MVMR)
 
 Additionally, genetic risk scores of IVs with fat depots and hormonal GWAS summary statistics were performed with the function grs.summary from the package (gtx, v.0.8.0). This function calculates the joint effects of a set of variants on an outcome trait using only GWAS summary statistics from the exposure and the outcome.
 The package can be downloaded from here: https://github.com/tobyjohnson/gtx
