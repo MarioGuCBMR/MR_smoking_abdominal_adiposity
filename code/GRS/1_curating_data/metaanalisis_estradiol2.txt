@@ -1,0 +1,31 @@
+# /emc/cbmr/METAL/generic-metal> /emc/cbmr/METAL/generic-metal/metal
+#THIS SCRIPT EXECUTES AN ANALYSIS OF TWO STUDIES
+
+SEPARATOR  COMMA 
+
+# UNCOMMENT THE NEXT LINE TO ENABLE GenomicControl CORRECTION
+# GENOMICCONTROL ON
+
+# === DESCRIBE AND PROCESS THE FIRST INPUT FILE ===
+MARKERLABEL variant
+ALLELELABELS effect_allele other_allele
+EFFECTLABEL beta
+PVALUELABEL p_value
+WEIGHTLABEL sample_size
+STDERRLABEL standard_error
+FREQLABEL effect_allele_frequency
+
+AVERAGEFREQ ON
+LABEL TOTALSAMPLESIZE AS NS
+
+SCHEME STDERR
+
+PROCESS /emc/cbmr/users/wfs758/smoking_project/data/curated_data/estradiol_female.txt
+
+# === THE SECOND INPUT FILE HAS THE SAME FORMAT AND CAN BE PROCESSED IMMEDIATELY ===
+PROCESS /emc/cbmr/users/wfs758/smoking_project/data/curated_data/estradiol_male.txt
+
+# === CARRY OUT AN INTERIM ANALYSIS OF THE TWO FILES ===
+OUTFILE /emc/cbmr/users/wfs758/smoking_project/data/metaanalysis_data/METAANALYSIS_estradiol2_ .tbl
+ANALYZE 
+QUIT
