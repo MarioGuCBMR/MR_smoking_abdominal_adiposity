@@ -1,0 +1,2 @@
+conda activate r_env
+Rscript /emc/cbmr/kilpelainen/tools/auto_locus_zoom/code/run_auto_locus_zooms.R /emc/cbmr/users/zlc436/smoking_project/CODE/1_locus_zoom/2_locus_zoom/1_input_and_code/cortisol_coloc.cfg
