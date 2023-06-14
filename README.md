@@ -8,7 +8,7 @@ This repository contains the contain to reproduce the MR analysis to assess the 
 
 A total of 4 Mendelian Randomization Methods were used:
 
-Traditional mendelian randomization pipeline using TwoSampleMR package (v4.6: https://mrcieu.github.io/TwoSampleMR/)
+Traditional mendelian randomization pipeline using TwoSampleMR package (v0.5.6: https://mrcieu.github.io/TwoSampleMR/)
 
 CAUSE-MR (v1.0.0, install it here: https://github.com/jean997/cause)
 
