@@ -1,0 +1,1 @@
+Rscript /emc/cbmr/kilpelainen/tools/auto_locus_zoom/code/run_auto_locus_zooms.R /emc/cbmr/users/zlc436/smoking_project/info_4_loci/2_input_commands/chrna3.cfg
