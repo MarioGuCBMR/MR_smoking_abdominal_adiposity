@@ -1,8 +1,8 @@
-# Estimating the causal association between smoking and abdominal adiposity using comprehensive Mendelian randomization methods
+# Estimating causality between smoking and abdominal obesity by Mendelian randomization
 
 [NOTE: this repository now contains all code to rerun analysis that have not gone yet through peer-review. Thus, changes to the structure of the repository and the code might change.]
 
-This repository contains the contain to reproduce the MR analysis to assess the associations between smoking and fat distribution. The publication can be found in: 
+This repository contains the code to reproduce the MR analysis to assess the causilty between smoking and abdominal obesity. The publication can be found in: 
 
 ## Software used in the analysis:
 
@@ -72,30 +72,29 @@ For 2SMR the summary statistics used are:
 
 WHR: Shungin et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/5/54/GIANT_2015_WHR_COMBINED_EUR.txt.gz)
 
-WHRadjBMI: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/e/eb/GIANT_2015_WHRadjBMI_COMBINED_EUR.txt.gz)
+WHR adjusted for body mass index: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/e/eb/GIANT_2015_WHRadjBMI_COMBINED_EUR.txt.gz)
 
 WC: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/5/57/GIANT_2015_WC_COMBINED_EUR.txt.gz)
 
 HC: Shungin et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/e/e4/GIANT_2015_HIP_COMBINED_EUR.txt.gz)
 
-WCadjBMI: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/7/73/GIANT_2015_WCadjBMI_COMBINED_EUR.txt.gz)
+WC adjusted for BMI: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/7/73/GIANT_2015_WCadjBMI_COMBINED_EUR.txt.gz)
 
-HCadjBMI: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/5/52/GIANT_2015_HIPadjBMI_COMBINED_EUR.txt.gz)
+HC adjusted for BMI: Shunging et al 2015 (available at: https://portals.broadinstitute.org/collaboration/giant/images/5/52/GIANT_2015_HIPadjBMI_COMBINED_EUR.txt.gz)
 
-WHRadjBMI stratified for smokers: Justice et al 2017 (available at: https://portals.broadinstitute.org/collaboration/giant/images/1/1c/WHRadjBMI.Stratified.zip)
+WHR adjusted for BMI stratified for smokers: Justice et al 2017 (available at: https://portals.broadinstitute.org/collaboration/giant/images/1/1c/WHRadjBMI.Stratified.zip)
 
-WCadjBMI stratified for smokers: Justice et al 2017 (available at: https://portals.broadinstitute.org/collaboration/giant/images/3/35/WCadjBMI.Stratified.zip)
+WC adjusted for BMI stratified for smokers: Justice et al 2017 (available at: https://portals.broadinstitute.org/collaboration/giant/images/3/35/WCadjBMI.Stratified.zip)
 
 For CAUSE and LHC-MR the summary statistics we particularly used GWAS summary statistics with bigger sample sizes for HC, WC, WHR, and WHRadjBMI:
 
 WC Elseworth et al 2018 (available at: https://gwas.mrcieu.ac.uk/datasets/ukb-b-9405/) #check with code to be sure
 
-
 HC: Elseworth et al 2018 (available at: https://gwas.mrcieu.ac.uk/datasets/ukb-b-15590/) #check with code to be sure
 
 WHR : Pulit et al 2019: (available: https://zenodo.org/record/1251813/files/whr.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
 
-WHRadjBMI: Pulit et al 2019: (availbale: https://zenodo.org/record/1251813/files/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
+WHR adjusted for body mass index: Pulit et al 2019: (available: https://zenodo.org/record/1251813/files/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
 
 ### Fat depot traits:
 
@@ -110,4 +109,4 @@ VAT/ASAT ratio.
 VAT/GSAT ratio.
 ASAT/GSAT ratio.
 
-Importantly, for some analysis we used BMI-adjusted versions for the three first traits (ASATadjBMI, GSATadjBMI and VATadjBMI). These summary statistics are not available online and should be confused with the BMI&height-adjusted traits that can be found in the link above. The BMI-adjusted versions of the traits were kindly provided by Agrawal and Saaket, first and last authors of the paper. If you wish to replicate those analysis, please contact them as well to obtain the summary statistics. I would like to use this space as well to thank Agrawal and Saaket again for their assistance and contribution. 
+Importantly, for some analysis we used BMI-adjusted versions for the three first traits (ASATadjBMI, GSATadjBMI and VATadjBMI). These summary statistics are not available online and should be confused with the BMI&height-adjusted traits that can be found in the link above. After direct contact with the authors, Agrawal et al made these summary statistics files available for the corresponding BMI-adjusted versions of the fat depot traits. I would like to use this space as well to thank Agrawal and Saaket again for their assistance and contribution. 
