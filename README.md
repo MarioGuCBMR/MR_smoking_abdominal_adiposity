@@ -1,8 +1,6 @@
 # Estimating causality between smoking and abdominal obesity by Mendelian randomization
 
-[NOTE: this repository now contains all code to rerun analysis that have not gone yet through peer-review. Thus, changes to the structure of the repository and the code might change.]
-
-This repository contains the code to reproduce the MR analysis to assess the causilty between smoking and abdominal obesity. The publication can be found in: 
+This repository contains the code to reproduce the MR analysis to assess the causilty between smoking and abdominal obesity. The publication can be found in: https://onlinelibrary.wiley.com/doi/10.1111/add.16454
 
 ## Software used in the analysis:
 
